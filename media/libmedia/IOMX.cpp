@@ -765,7 +765,6 @@ status_t BnOMX::onTransact(
                     }
                 } else {
                     ALOGE("couldn't map: %s", strerror(errno));
-
                 }
             }
 
